@@ -2,7 +2,7 @@ input: .
 output: .retype
 url: c8yops.github.io/demo/ 
 branding:
-  title: C8YOPS
+  title: C8YOPS :icon-star:
   label: v0.0.1
 links:
 - text: Getting Started
