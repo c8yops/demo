@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: /sitemap.xml.gz
+Sitemap: https://c8yops.github.io/cheatsheet/sitemap.xml.gz
