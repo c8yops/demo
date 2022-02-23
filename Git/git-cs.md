@@ -1,6 +1,6 @@
-# GIT CHEAT SHEET
+# Git Cheat Ssheet
 
-## Git installation
+## 01 Git installation
 
 **Linux:**
 
@@ -14,17 +14,17 @@ sudo apt-get install git
 
 **Windows:**
 
-htps://windows.github.com
+<https://windows.github.com>
 
 **Mac:**
 
-htps://mac.github.com
+<https://mac.github.com>
 
 **Git for All Platforms:**
 
-htps://git-scm.com
+<https://git-scm.com>
 
-## Git configuration
+## 02 Git configuration
 
 Set the name that will be attached to your commits and tags.
 
@@ -44,7 +44,7 @@ Set automatic command line coloring for Git for easy reviewing.
 git config --global color.ui auto
 ```
 
-## Starting a Project
+## 03 Starting a Project
 
 Create a new local repository. If **[project name]** is provided, Git will create a new directory name **[project name]** and will initialize a repository inside it. If **[project name]** is not provided, then a new repository is initialized in the current directory.
 
@@ -58,7 +58,7 @@ Downloads a project with the entire history from the remote repository.
 git clone [project url]
 ```
 
-## Day-To-Day Work
+## 04 Day-To-Day Work
 
 Displays the status of your **working directory**. Options include new, staged, and modified files. It will retrieve branch name, current commit identifier, and changes pending commit.
 
@@ -126,7 +126,7 @@ Delete a specific **stash** from all your previous **stashes**.
 git stash drop
 ```
 
-## Git branching model
+## 05 Git branching model
 
 List all local branches in repository. With **-a**: show all branches (with remote).
 
@@ -159,7 +159,7 @@ Remove selected branch, if it is already merged into any other.
 git branch -d [name]
 ```
 
-## Review your work
+## 06 Review your work
 
 List commit history of current branch. **-n count** limits list to last **n** commits.
 
@@ -191,7 +191,7 @@ List operations (e.g. checkouts or commits) made on local repository.
 git reflog
 ```
 
-## Tagging known commits
+## 07 Tagging known commits
 
 List all tags.
 
@@ -217,7 +217,7 @@ Remove a tag from local repository.
 git tag -d [name]
 ```
 
-## Reverting changes
+## 08 Reverting changes
 
 Switches the current branch to the **target reference**, leaving a difference as an uncommitted change. When **--hard** is used, all changes are discarded.
 
@@ -231,7 +231,7 @@ Create a new commit, reverting changes from the specified commit. It generates a
 git revert [commit sha]
 ```
 
-## Synchronizing repositories
+## 09 Synchronizing repositories
 
 Fetch changes from the **remote**, but not update tracking branches.
 
@@ -272,7 +272,7 @@ a reference (standard) or an object (annotated)
 !!! Head
 a place where your **working directory** is now
 
-## Ignoring Files
+## 10 Ignoring Files
 
 Verify the .gitignore file exists in your project and ignore certain type of files, such as all files in **logs** directory (excluding the **.gitkeep** file), whole **tmp** directory and all files **\*.swp**. File ignoring will work for the directory (and children directories) where **.gitignore** file is placed.
 
@@ -289,4 +289,3 @@ System wide ignore pattern for all local repositories.
 ```bash
 git config --global core.excludesfile [file]
 ```
-
