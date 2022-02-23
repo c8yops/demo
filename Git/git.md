@@ -64,4 +64,3 @@ Before being committed a file can pass through different states:
 - Unmodified
 - Modified
 - Staged
-

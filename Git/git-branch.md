@@ -8,7 +8,7 @@ This is where the fun starts. Simply type this command to create a new branch, s
 git branch [new-branch-name]
 ```
 
-Keep in mind that **you can only create new branches in your local repository** (you will see them remotely when published). 
+Keep in mind that **you can only create new branches in your local repository** (you will see them remotely when published).
 
 By default, the new branch will be based on your currently checked out revision. If you’d like to start at a specific revision, simply add that revision’s hash at the end of the command, like so:
 
@@ -16,7 +16,9 @@ By default, the new branch will be based on your currently checked out revision.
 git branch [new-branch-name] 2b504bee
 ```
 
-[!badge variant="info" text="Tip: Make sure you give meaningful names to your branches - something like “feature-being-worked-on” could be a good starting point."]
+!!!info Tip:
+Make sure you give meaningful names to your branches - something like “feature-being-worked-on” could be a good starting point.
+!!!
 
 ## **Switching Branches**
 
@@ -37,7 +39,7 @@ git checkout [other-branch]
 This command assumes you’ve **already checked out the branch** you’d like to rename (your local HEAD branch):
 
 ```bash
-git branch -m <new-name>
+git branch -m [new-name]
 ```
 
 If you’d like to rename a **different branch**, you should first insert the current name, like in this example:
@@ -88,8 +90,9 @@ This is a very useful command when you need to decide if you should integrate or
 git log [main]..[feature-branch]
 ```
 
-[!badge variant="info" text="Tip: You can also use this command to compare local and
-remote states, like in the example below:"]
+!!!info Tip:
+You can also use this command to compare local and remote states, like in the example below:
+!!!
 
 ```bash
 git log [origin/main]..[main]
@@ -131,7 +134,9 @@ When a **local branch** is no longer needed, you can delete it by typing the com
 git branch -d [branch-name]
 ```
 
-[!badge variant="info" text="Tip: If that branch contains **unmerged changes**, you might also need the “-f” option to force the deletion - if so, **proceed with caution**!"]
+!!!info Tip:
+If that branch contains **unmerged changes**, you might also need the “-f” option to force the deletion - if so, **proceed with caution**!
+!!!
 
 To delete a remote branch, keep in mind that the command is totally different:
 
