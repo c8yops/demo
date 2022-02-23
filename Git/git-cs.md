@@ -1,4 +1,4 @@
-# Git Cheat Ssheet
+# Git Cheat Sheet
 
 ## 01 Git installation
 
@@ -29,13 +29,13 @@ sudo apt-get install git
 Set the name that will be attached to your commits and tags.
 
 ```bash
-git config --global user.name “[Your Name[”
+git config --global user.name “[Your Name]”
 ```
 
 Set the e-mail address that will be attached to your commits and tags.
 
 ```bash
-git config --global user.email “[you@example.com[”
+git config --global user.email “[you@example.com]”
 ```
 
 Set automatic command line coloring for Git for easy reviewing.

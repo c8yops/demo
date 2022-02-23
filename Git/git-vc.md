@@ -1,4 +1,4 @@
-# VERSION CONTROL
+# Version Control
 
 ## Best practices
 
