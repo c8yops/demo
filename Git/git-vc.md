@@ -45,3 +45,5 @@ git help [command]
 ### **Free Online Resources**
 
 <https://www.git-scm.org/>
+
+<https://marklodato.github.io/visual-git-guide/index-en.html>
